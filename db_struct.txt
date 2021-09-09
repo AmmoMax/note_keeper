@@ -1,0 +1,16 @@
+Структура БД
+
+note:
+    id: Integer, primary key
+    title: Varchar
+    content: Text
+    author: ManyToMany field
+    tags: ManyToMany field
+    time_create: DateTime
+    time_update: DateTime
+    is_published: Boolean
+
+
+author:
+    id: Integer, PK
+    ...
